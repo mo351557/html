@@ -1,0 +1,137 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+#eng, #brk, #shk{
+  padding-left: 70PX;
+}
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   #navul,#account{
+     margin-top: 40px;
+   }
+
+
+
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+#bike1 , #bike2, #bike3{
+  margin-top: 50px;
+  padding-left: 100px;
+}
+#myCarousel .item{
+  height: 500px;
+  margin-top: 80px;
+}
+
+#wl1{
+  margin-top: -20px;
+}
+
+#successAlert{
+  display: none;
+}
+
+#slide1{
+  background: url('../../images/bike1.png') top center no-repeat;
+}
+#slide2{
+  background: url('../../images/bike2.jpg') top center no-repeat;
+}
+#slide3{
+  background: url('../../images/bike3.png') top center no-repeat;
+}
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+footer{
+  background-color: #e3e3e3
+
+}
+#ftr, #ftr1{
+  list-style: none;
+  text-align: center;
+}
+#ftr li{
+  display: inline;
+  padding: 10px;
+  font-size: 17px;
+}
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+  #myCarousel .item{
+    height: 200px;
+  }
+  #slide1{
+    background: url('../../images/bike111.jpg') top center no-repeat;
+  }
+  #slide2{
+    background: url('../../images/bike222.jpg') top center no-repeat;
+  }
+  #slide3{
+    background: url('../../images/bike333.png') top center no-repeat;
+  }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+  #myCarousel .item{
+    height: 200px;
+  }
+
+  #slide1{
+    background: url('../../images/bike11.jpg') top center no-repeat;
+  }
+  #slide2{
+    background: url('../../images/bike22.jpg') top center no-repeat;
+  }
+  #slide3{
+    background: url('../../images/bike33.png') top center no-repeat;
+  }
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+  #myCarousel .item{
+    height: 400px;
+  }
+  #log{
+    background: url('../../images/logo.png')no-repeat;
+  }
+
+  /*#slide1{
+    background: url('../../images/bike1.png') top center no-repeat;
+  }
+  #slide2{
+    background: url('../../images/bike2.jpg') top center no-repeat;
+  }
+  #slide3{
+    background: url('../../images/bike3.png') top center no-repeat;
+  }*/
+}
